@@ -1,0 +1,11 @@
+yum install -y httpd.x86_64
+
+systemctl enable httpd.service
+
+systemctl start httpd.service
+
+echo "<p>Hello World from HARSH $(hostname -f)</p> <h1>THIS IS ELB DEMO 1</h1>" > /var/www/html/index.html 
+
+echo "<p>Hello World from DANISH $(hostname -f)</p> <h1>THIS IS ELB DEMO 4</h1>" > /var/www/html/index.html 
+
+echo "<p>Hello World from SHUBHAM $(hostname -f)</p> <h1>THIS IS ELB DEMO 3</h1>" > /var/www/html/index.html 
