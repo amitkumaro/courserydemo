@@ -1,0 +1,13 @@
+|M+io,DHcT}*9IU`
+
+
+34.134.111.127
+
+
+
+34.87.163.35
+
+
+
+ip=$(curl -s https://api.ipify.org)
+echo "My public IP address is: $ip"
